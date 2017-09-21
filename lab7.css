@@ -1,0 +1,119 @@
+body {
+	margin: 0 12%;
+	padding-top: 250px;
+}
+header {
+	height: 120px;
+	width: 1000px;
+	background: lightblue;	
+	position: fixed;
+	top: 0;
+}
+.logo {
+	text-align: left;
+}
+.logo img {
+	width: 120px;
+}
+#trichdan {
+	font-size: 20px;
+	position: relative;
+	bottom: 50px;
+}
+header div {
+	display: inline-block;
+}
+nav {
+	float: right;
+	margin: 20px;
+}
+li {
+	list-style-type: none;
+	display: inline;
+	margin: 15px;
+	font-size: 20px;
+}
+li a {
+	background-color: #e6cc11;
+	padding: 5px;
+	text-decoration: none;
+
+}
+li a:hover {
+	background-color: #e612c2;
+}
+/*trich dan */
+blockquote {
+	width: 1000px;
+	background-color: #7fd4d8;
+	padding-bottom: 10px;
+	position: absolute;
+	top: 121px;
+	left: 121px;
+}
+blockquote p {
+	text-align: center;
+	font-style: italic;
+	font-size: 22px;
+}
+blockquote div {
+	text-align: center;
+}
+/* doan nay section */	
+}
+section {
+	margin-top: 30px;
+}
+
+section .baiviet {
+	width: 28%;
+	height: 200px;
+	margin: 30px 20px;
+	display: inline-block;
+	}
+section div {
+	overflow: hidden;
+	background-color: white;
+}
+section div:hover {
+	overflow-y: scroll;
+	background-color: yellow;
+}
+.baiviet div {
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+}
+.baiviet p {
+	margin: 5px;
+	text-indent: 10px;
+}
+/*footer *//
+.footer {
+	position: absolute;
+	bottom: 0;
+	height: 300px;
+
+}
+.footer address {
+	text-align: center;
+}
+.footer {
+	background-color: #95a8b1;
+	border: 2px solid pink;
+	margin: 5px;
+}
+.footer div {
+	text-align: center;
+}
+/*len top */
+#lentop {
+	float: left;
+	background-color: red;
+	position: fixed;
+	right: 0;
+	bottom: 30px;
+}
+#lentop img {
+	width: 30px;
+}
